@@ -5,7 +5,7 @@ import './Services.css'
 function Services() {
   return (
     <>
-      <div className="service_heading"><h1>Quick Fit Auto Service Center</h1>
+      <div className="service_heading"><h1>Auto Experts</h1>
         <p>Affordable, Relaible, Trusted Auto Services Center In Dubai & Abu Dhabi</p>
       </div>
       <div className="main">
