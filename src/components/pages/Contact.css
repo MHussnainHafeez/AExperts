@@ -1,0 +1,32 @@
+.contact_main{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    line-height: 40px;
+}
+.links{
+    display: flex;
+    
+}
+.details{
+    margin-left: 20px;
+}
+
+i{
+    color: blue;
+}
+span{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 540px) {
+   
+span{
+    margin-left: 8;
+    
+}
+}

@@ -1,0 +1,33 @@
+.mainDiv{
+    
+    width: 70%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+   
+}
+
+
+.aboutheading{
+    font-weight: 500;
+    line-height: 60px;
+    font-size:35px;
+}
+.text{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(92, 84, 84);
+}
+  .medium{
+    font-size: 25px;
+  }
+  @media screen and (max-width: 600px) {
+    .aboutheading{
+      
+        font-size:30px;
+    }
+    .medium{
+        font-size: 20px;
+      }
+  }
+  

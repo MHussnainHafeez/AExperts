@@ -1,0 +1,58 @@
+.service_heading{
+   margin-top: 100px;
+    text-align: center;
+}
+.service_heading p{
+
+    color:rgb(85, 77, 77);
+}
+.main{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.tick_icon{
+    list-style-type: none;
+    display: flex;
+
+
+}
+.right{
+    margin-left: 150px;
+}
+.tick_icon i{
+    color: white;
+  margin-right: 10px ;
+    background: #000;
+    border-radius: 10px;
+}
+.description{
+    width: 80%;
+    margin: auto;
+    line-height: 25px;
+}
+@media screen and (max-width: 760px) {
+    .service_heading{
+      font-size: 15px;
+       
+     }
+    .service_heading p{
+margin-top: 6px;
+       font-size: 15px;
+    }
+    .description{
+        width: 90%;
+    
+    }
+    .tick_icon{
+        flex-direction: column;
+        
+    }
+    .right{
+        margin-left: 0px;
+    }
+
+}
