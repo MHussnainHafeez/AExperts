@@ -17,12 +17,12 @@ function App() {
 <Navbar/>
 <div className='bg'>
 <Routes>
-  <Route path='/' exact Component={Home}/>
+  {/* <Route path='/' exact Component={Home}/> */}
   
   <Route path='/About' exact Component={About}/>
-  <Route path='/Services' exact Component={Services}/>
+  {/* <Route path='/Services' exact Component={Services}/>
   <Route path='/ContactUs' exact Component={Contact}/>
-  <Route path='/service' exact Component={Service1}/>
+  <Route path='/service' exact Component={Service1}/> */}
   
 </Routes>
 </div>
