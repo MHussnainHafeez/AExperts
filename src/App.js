@@ -8,6 +8,7 @@ import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
 import ScrollToTop from 'react-scroll-to-top';
+import Service1 from './components/pages/Sevices/service1';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
   <Route path='/About' exact Component={About}/>
   <Route path='/Services' exact Component={Services}/>
   <Route path='/ContactUs' exact Component={Contact}/>
+  <Route path='/service' exact Component={Service1}/>
+  
 </Routes>
 </div>
 <Footer/>

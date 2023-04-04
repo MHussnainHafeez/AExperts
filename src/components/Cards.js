@@ -24,7 +24,7 @@ function Cards() {
               src={img3}
               text='Computerized Mechenical and Electrical Diagnostics'
               label='COMPUTERIZED MECHENICS'
-              path='/Services'
+              path='/service'
               
             />
            
